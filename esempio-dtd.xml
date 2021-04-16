@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "./esempio-dtd.dtd">
+
+<TEI>
+    <header type="intestazione" lang="ITA">
+        Questo è l'header
+    </header>
+    <facsimile source="fonte">
+        Questo è un facsimile
+    </facsimile>
+    <testo id="1">
+        Testo con possibile elemento <seg></seg> all'interno
+    </testo>
+    <testo id="2" type="due"></testo>
+</TEI>
